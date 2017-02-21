@@ -4,7 +4,8 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import Main from './Main'; // Our custom react component
 
 //Needed for onTouchTap
-//Can go away when react 1.0 release
+//Can go away, when browsers fix this issue.
+//Warning: Supported React versions are >=0.14 and <0.15
 //Check this repo:
 //https://github.com/zilverline/react-tap-event-plugin
 injectTapEventPlugin();
